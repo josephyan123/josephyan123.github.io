@@ -1,6 +1,6 @@
 {
-  "name": "my-personal-website",
-  "homepage": "https://josephyan123.github.io/my-personal-website",
+  "name": "josephyan123.github.io",
+  "homepage": "https://josephyan123.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,14 +10,17 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/josephyan123/josephyan123.github.io.git"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "framer-motion": "^12.23.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
+    "@tailwindcss/vite": "^4.1.12",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^4.7.0",
@@ -28,9 +31,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.12",
     "vite": "^7.1.0"
   }
 }
-
-
