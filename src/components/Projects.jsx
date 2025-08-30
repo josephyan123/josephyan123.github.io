@@ -1,3 +1,5 @@
+import finetuningImage from '../assets/images/finetuning.png';
+
 export default function Projects() {
   const projects = [
     {
@@ -5,7 +7,7 @@ export default function Projects() {
       description: "Line-tuning LLM with LoRA",
       technologies: ["LLM", "Transformers", "LoRA"],
       link: "https://github.com/josephyan123/Fine-tuning-LLM",
-      image: "/src/assets/images/finetuning.png"
+      image: finetuningImage
     },
     // Add more projects
   ]

@@ -1,4 +1,5 @@
 import React from 'react';
+import article1_image1 from '../assets/images/article1_image1.png';
 
 // Create a reusable Highlight component
 const Highlight = ({ children }) => (
@@ -33,7 +34,7 @@ export default function Articles() {
       subtitle: "From Traditional Approaches to Efficient Techniques",
       description: "Learn practical LLM fine-tuning using LoRA, 4-bit quantization, gradient checkpointing, and smart resumption strategies for consumer hardware. Complete code examples included.",
       link: "https://medium.com/@josephyan123/practical-fine-tuning-llms-lora-quantization-efficient-techniques-a5ee28760c7a",
-      image: "/src/assets/images/article1_image1.png"
+      image: article1_image1
     },
     // Add more articles
   ]
