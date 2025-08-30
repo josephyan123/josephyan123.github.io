@@ -1,5 +1,3 @@
-
-```markdown
 # Personal Portfolio Website
 
 A modern, responsive personal website built with **React** and **Vite**, deployed via **GitHub Pages**. Features a clean design with project showcases, writings, and a contact form.
@@ -29,7 +27,7 @@ Visit the live website: [https://josephyan123.github.io](https://josephyan123.gi
 
 ## 📦 Project Structure
 
-
+```
 src/
 ├── components/
 │   ├── Header.jsx          # Navigation header
